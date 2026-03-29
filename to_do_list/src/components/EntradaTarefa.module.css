@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  background-color: #1e1e2f;
+  color: white;
+}
+
+.input::placeholder {
+  color: #aaa;
+}
+
+.botao {
+  margin-left: 10px;
+  padding: 10px 15px;
+  border: none;
+  background: linear-gradient(135deg, #6c5ce7, #a29bfe);
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.botao:hover {
+  transform: scale(1.05);
+}
